@@ -7,10 +7,10 @@ class Config(object):
     APP_ID = int(os.environ.get("APP_ID", 6534707))
     API_HASH = os.environ.get("API_HASH", "4bcc61d959a9f403b2f20149cbbe627a")
     # Update channel for Force Subscribe
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
-    UPDATE_CHANNEL1 = os.environ.get("UPDATE_CHANNEL", "")
-    UPDATE_CHANNEL2 = os.environ.get("UPDATE_CHANNEL", "")
-    UPDATE_CHANNEL3 = os.environ.get("UPDATE_CHANNEL", "")
+    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "ShinobinoIttokidub1")
+    UPDATE_CHANNEL1 = os.environ.get("UPDATE_CHANNEL", "animecolony")
+    UPDATE_CHANNEL2 = os.environ.get("UPDATE_CHANNEL", "animedualaudiozippercartoonist")
+    UPDATE_CHANNEL3 = os.environ.get("UPDATE_CHANNEL", "animedualaudiox")
     # log channel
     #LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "")
     # Get these values from my.telegram.org
@@ -42,4 +42,3 @@ class Config(object):
     DEF_WATER_MARK_FILE = ""
     # Database url
     DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Uploader:Uploader@cluster0.ba0ppxa.mongodb.net/?retryWrites=true&w=majority")
-    
